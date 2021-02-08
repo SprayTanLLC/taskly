@@ -1,0 +1,11 @@
+.Form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Form input {
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(245, 240, 240);
+}

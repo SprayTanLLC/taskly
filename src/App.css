@@ -1,10 +1,24 @@
 .App {
+  display: flex;
   text-align: center;
+  background-color: #282c34;
+  width: 100%;
+  height: 100vh;
+  color: #f0e7d8;
+  flex-direction: column;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  border: 3px solid white;
+  width: 30%;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(250, 250, 250);
+  opacity: 1; /* Firefox */
+  font-style: italic;
 }
 
 @media (prefers-reduced-motion: no-preference) {
