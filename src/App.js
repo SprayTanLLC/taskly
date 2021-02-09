@@ -1,11 +1,11 @@
 import "./App.css";
-import Container from "./Container/Container";
+import TaskList from "./Componenets/TaskList/TaskList";
 
 function App() {
   return (
     <div className="App">
       <h1>TASKLY</h1>
-      <Container />
+      <TaskList />
     </div>
   );
 }

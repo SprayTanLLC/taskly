@@ -1,0 +1,22 @@
+.TaskList {
+  background-color: rgb(182, 38, 110);
+  width: 60%;
+  box-sizing: border-box;
+  border-radius: 3%;
+}
+
+.Form {
+  padding-top: 2rem;
+}
+
+::placeholder {
+  color: black;
+}
+
+.ToDoItems ul {
+  list-style-type: none;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+}

@@ -1,0 +1,14 @@
+.ListItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Button {
+  background-color: rgb(182, 38, 110);
+  border: none;
+  color: white;
+}
+
+.Button:hover {
+  font-size: 1.15rem;
+}
